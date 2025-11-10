@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "fronted",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +38,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "group-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0"
+>>>>>>> 703865d (Sync local folder with GitHub)
   }
 }
