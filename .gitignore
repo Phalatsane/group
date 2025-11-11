@@ -1,20 +1,19 @@
-# Dependencies
-node_modules/
-npm-debug.log*
+# Firebase credentials - NEVER commit these!
+backend/*-firebase-adminsdk-*.json
+backend/serviceAccountKey.json
+firebase-debug.log
 
 # Environment variables
 .env
-backend/*-firebase-adminsdk-*.json
-backend/serviceAccountKey.json
+.env.local
+
+# Dependencies
+node_modules/
 
 # Build outputs
 dist/
 build/
 .parcel-cache/
-
-# OS files
-.DS_Store
-Thumbs.db
 
 # Logs
 *.log
