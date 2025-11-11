@@ -1,8 +1,20 @@
-﻿node_modules/
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables
 .env
-.DS_Store
-*.log
-.cache/
+backend/*-firebase-adminsdk-*.json
+backend/serviceAccountKey.json
+
+# Build outputs
 dist/
 build/
 .parcel-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
